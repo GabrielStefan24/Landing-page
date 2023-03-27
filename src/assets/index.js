@@ -3,7 +3,7 @@ import close from "./close.svg";
 import menu from "./menu.svg";
 
 import github from "./github.webp";
-import material from "./tech/Materialui.webp";
+import material from "./tech/MaterialUi.webp";
 import css from "./tech/css.webp";
 import git from "./tech/git.webp";
 import html from "./tech/html.webp";
@@ -36,4 +36,5 @@ export {
   joystick,
   dumbell,
   book,
+  material,
 };
