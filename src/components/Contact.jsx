@@ -8,6 +8,7 @@ import useMediaQuery from "../utils/useMediaQuery";
 
 const Contact = () => {
   const isAboveSmallScreens = useMediaQuery("(min-width:1290px)");
+  const responsive = useMediaQuery("(max-width:380)");
   const { ref, inView } = useInView({
     threshold: 0.05,
     triggerOnce: true,
@@ -82,7 +83,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="flex mt-20 mx-auto max-w-7xl mb-10 px-10 ">
+    <div className="flex mt-20 mx-auto max-w-7xl mb-10 p-5 ">
       <motion.div
         id="contact"
         ref={ref}
