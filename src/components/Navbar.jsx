@@ -54,9 +54,9 @@ function Navbar() {
           toggle ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="bg-opacity-95 bg-black w-[200px] h-full flex justify-center py-5">
+        <div className=" bg-stone-900 h-full flex justify-center py-5  ">
           {/* Place your modal content here */}
-          <ul className="list-none flex flex-col gap-10 text-2xl">
+          <ul className="list-none flex flex-col gap-10 text-2xl ">
             {navLinks.map((link) => (
               <li
                 key={link.id}
@@ -64,7 +64,7 @@ function Navbar() {
                   active === link.title ? "text-white" : "text-secondary"
                 } hover:text-white hover:
           cursor-pointer
-          font-medium underline-animation`}
+          font-medium underline-animation `}
                 onClick={() => {
                   setActive(link.title);
                   setToggle(!toggle);
