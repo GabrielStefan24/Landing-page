@@ -28,7 +28,7 @@ const ProjectCard = ({
       initial="hidden"
       animate={inView ? "show" : "hidden"}
       exit="exit"
-      className="mx-auto"
+      className="mx-auto "
     >
       <Tilt
         options={{ max: 35, scale: 1, speed: 400 }}
@@ -84,7 +84,7 @@ function Projects() {
 
   return (
     <section
-      className={`flex ${
+      className={`flex  overflow-hidden ${
         isBelowSmallScreens ? "flex-col" : "flex-col"
       } mx-auto max-w-7xl items-center justify-between px-6 mt-20`}
     >

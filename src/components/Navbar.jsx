@@ -20,7 +20,7 @@ function Navbar() {
         >
           <img src={logo} alt="Logo" className="w-14 h-14 object-contain" />
           <p className="text-white text-2xl cursor-pointer font-bold font-Roslindale">
-            Gabriel Sirbu
+            GabrielDevs
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10 ">

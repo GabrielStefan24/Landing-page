@@ -5,7 +5,7 @@ import {
   reactjs,
   tailwind,
   git,
-  threejs,
+  nextjs,
   camera,
   joystick,
   book,
@@ -72,8 +72,8 @@ const technologies = [
   },
 
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next.js",
+    icon: nextjs,
   },
   {
     name: "git",
