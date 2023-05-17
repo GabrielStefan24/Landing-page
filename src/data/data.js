@@ -6,6 +6,10 @@ import {
   tailwind,
   git,
   nextjs,
+  planet,
+  pokemon,
+  tictactoe,
+  cartoon,
 } from "../assets";
 
 export const navLinks = [
@@ -59,70 +63,96 @@ const technologies = [
 
 const projects = [
   {
-    name: "Project1",
+    name: "Cartoon Network",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Cartoon Network is an interactive web application designed for cartoon enthusiasts. It provides a library of cartoon movies that users can explore, watch, and even add to their favorites list. The application comes with an advanced filtering system that lets users sort movies by various categories",
     tags: [
       {
-        name: "tec1",
+        name: "React",
         color: "white",
       },
       {
-        name: "tec2",
+        name: "Next",
         color: "red",
       },
       {
-        name: "tec3",
+        name: "Mongo",
         color: "green",
       },
+      {
+        name: "Prisma",
+        color: "purple",
+      },
     ],
-    image: git,
-    source_code_link: "https://github.com/",
-    page_link: "https://facebook.com/",
+    image: cartoon,
+    source_code_link: "https://github.com/GabrielStefan24/cartoon-network",
+    page_link: "https://cartoon-network-rust.vercel.app/auth",
   },
   {
-    name: "Project2",
+    name: "Planet-facts",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Planet Facts is an interactive web application that provides detailed insights into our solar system's planets. Each planet has a dedicated page where users can explore its overview, internal structure, and surface geology, offering an engaging way to learn about celestial bodies.",
     tags: [
       {
-        name: "tec1",
+        name: "React",
         color: "white",
       },
       {
-        name: "tec2",
+        name: "SCSS",
         color: "red",
       },
       {
-        name: "tec3",
+        name: "HTML",
         color: "green",
       },
     ],
-    image: git,
-    source_code_link: "https://github.com/",
-    page_link: "https://facebook.com/",
+    image: planet,
+    source_code_link: "https://github.com/GabrielStefan24/planet-facts",
+    page_link: "https://planet-facts-tau.vercel.app/",
   },
   {
-    name: "Project3",
+    name: "Pokedex",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      " Pokedex is an interactive web application built using React.js that allows users to search and learn more about their favorite Pokemon. The application leverages the comprehensive PokeAPI to fetch and display detailed information about each Pokemon, including their types, abilities, stats, and more.",
     tags: [
       {
-        name: "tec1",
+        name: "React",
         color: "white",
       },
       {
-        name: "tec2",
+        name: "Tailwind",
         color: "red",
       },
       {
-        name: "tec3",
+        name: "Framer-Motion",
         color: "green",
       },
     ],
-    image: git,
-    source_code_link: "https://github.com/",
-    page_link: "https://facebook.com/",
+    image: pokemon,
+    source_code_link: "https://github.com/GabrielStefan24/PokeDex",
+    page_link: "https://pokedex-beige-xi.vercel.app/",
+  },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "Tic Tac Toe is a dynamic web game that adapts to your device's screen size. It provides a seamless interaction with hover states for all elements and offers either a solo match against AI or a duel with another player on the same device, creating an engaging digital adaptation of the classic strategy game.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "white",
+      },
+      {
+        name: "HTML",
+        color: "red",
+      },
+      {
+        name: "CSS",
+        color: "green",
+      },
+    ],
+    image: tictactoe,
+    source_code_link: "https://github.com/GabrielStefan24/Tic-Tac-Toe-Game",
+    page_link: "https://tic-tac-toe-game-silk-tau.vercel.app/",
   },
 ];
 

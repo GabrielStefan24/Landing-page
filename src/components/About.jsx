@@ -22,7 +22,7 @@ const Photo = React.forwardRef(({ inView }, ref) => (
         backgroundImage: `url(${avatar})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
-        borderRadius: "40%",
+        borderRadius: "20%",
       }}
       animate={inView ? "show" : "hidden"}
       exit="exit"

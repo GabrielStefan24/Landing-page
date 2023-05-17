@@ -16,6 +16,7 @@ module.exports = {
         cover: "rgba(9, 9, 9, 0.67)",
         red: "#CD5C5C",
         green: "#00FA9A",
+        purple: "#985BF5",
       },
 
       boxShadow: {

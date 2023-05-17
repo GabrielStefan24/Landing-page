@@ -14,7 +14,7 @@ const Stack = () => {
       <motion.h2
         ref={ref}
         variants={fadeTransition("", "", 0.2, 1.2)}
-        className="text-white xl:text-7xl sm:text-5xl text-4xl font-bold md:mt-20 sm:self-start"
+        className="text-white xl:text-7xl sm:text-5xl text-4xl font-bold md:mt-20 text-center "
         animate={inView ? "show" : "hidden"}
         exit="exit"
       >

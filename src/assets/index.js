@@ -9,13 +9,13 @@ import html from "./tech/html.webp";
 import javascript from "./tech/javascript.webp";
 import reactjs from "./tech/reactjs.webp";
 import tailwind from "./tech/tailwind.webp";
-import book from "./book.png";
 import avatar from "./avatar.jpg";
 import code from "./code.png";
-import joystick from "./joystick.png";
-import dumbell from "./dumbell.png";
-import camera from "./camera.jpg";
 import nextjs from "./tech/nextjs.png";
+import tictactoe from "./TicTacToe.jpg";
+import cartoon from "./Cartoon.jpg";
+import planet from "./Planet.jpg";
+import pokemon from "./Pokemon.jpg";
 
 export {
   logo,
@@ -30,10 +30,10 @@ export {
   tailwind,
   avatar,
   code,
-  camera,
-  joystick,
-  dumbell,
-  book,
   material,
   nextjs,
+  pokemon,
+  planet,
+  cartoon,
+  tictactoe,
 };
