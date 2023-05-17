@@ -5,10 +5,10 @@ import arrowVariants from "../utils/arrow";
 const Hero = () => {
   return (
     <section
-      className="relative w-full h-screen 
+      className="relative w-full h-screen  
   "
     >
-      <div className="absolute px-6 inset-0 top-[140px] max-w-7xl mx-auto flex items-start gap-5">
+      <div className="absolute px-6 inset-0 top-[140px] max-w-7xl mx-auto flex items-start gap-5 ">
         <div>
           <h1 className="text-white xl:text-7xl  sm:text-5xl text-4xl font-bold md:mt-10 ">
             Hi, I'm{" "}
@@ -39,7 +39,7 @@ const Hero = () => {
               cursor: "pointer",
             }}
           >
-            <p className="text-white mt-2 xl:text-3xl sm:text-2xl text:xl font-semibold">
+            <p className="text-white xl:text-3xl sm:text-2xl text:xl font-semibold">
               Scroll to about section
             </p>
             <motion.svg

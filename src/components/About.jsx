@@ -37,13 +37,8 @@ const About = () => {
   });
   const isBelowSmallScreens = useMediaQuery("(max-width: 640px)");
   return (
-    <motion.section
-      id="about"
-      className={`flex ${
-        isBelowSmallScreens ? "flex-col" : "flex-row"
-      } mx-auto max-w-7xl items-center justify-between px-6`}
-    >
-      <div className="mb-10 mr-3">
+    <motion.section id="about" className={`mx-auto max-w-7xl px-6`}>
+      <div className="mb-10 mr-3 flex flex-col items-center justify-center">
         <motion.h2
           ref={ref}
           variants={fadeTransition("", "", 0.2, 1.2)}
@@ -56,7 +51,7 @@ const About = () => {
         <motion.p
           ref={ref}
           variants={fadeTransition("", "", 0.2, 1.2)}
-          className="text-secondary mt-2 xl:text-[18px] text-sm  md:mt-10 font-semibold max-w-3xl"
+          className="text-secondary mt-2 xl:text-[18px] text-sm  md:mt-10 font-semibold max-w-3xl text-center"
           animate={inView ? "show" : "hidden"}
           exit="exit"
         >
@@ -66,7 +61,6 @@ const About = () => {
           in front-end development, while also nurturing a love for design.
         </motion.p>
       </div>
-      <Photo inView={inView} ref={ref} />
     </motion.section>
   );
 };
