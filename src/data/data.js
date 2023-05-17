@@ -6,9 +6,6 @@ import {
   tailwind,
   git,
   nextjs,
-  camera,
-  joystick,
-  book,
 } from "../assets";
 
 export const navLinks = [
@@ -23,27 +20,6 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-];
-
-const hobbies = [
-  {
-    title: "Photography ",
-    icon: camera,
-    description:
-      "I'm driven by my passion for capturing the world's beauty through my lens. With a keen eye for detail and composition, I'm always seeking new ways to improve my skills and immortalize moments. My love for photography inspires me to explore various genres, connect with fellow enthusiasts, and share my unique perspective with others.",
-  },
-  {
-    title: "Reading",
-    icon: book,
-    description:
-      "Reading is one of my most cherished hobbies. It provides me with the opportunity to immerse myself in various worlds and ideas, allowing my imagination to explore uncharted territories. I particularly enjoy delving into philosophical works that provoke deep thought and introspection, as well as captivating sci-fi novels that transport me to futuristic realms filled with adventure.",
-  },
-  {
-    title: "Gamer",
-    icon: joystick,
-    description:
-      "I'm a huge fan of MOBA and RPG games, always diving into the rich worlds and strategies they bring. I love to team up with others, sharing laughs and good times while we tackle challenges together. As a gamer, I'm all about exploring the stories these games tell and making awesome connections with my fellow players along the way.",
   },
 ];
 
@@ -150,4 +126,4 @@ const projects = [
   },
 ];
 
-export { technologies, hobbies, projects };
+export { technologies, projects };
