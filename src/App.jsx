@@ -8,7 +8,6 @@ import {
   Projects,
   Stack,
   StarsCanvas,
-  Hobbies,
 } from "./components";
 import Space from "./components/Space";
 const App = () => {
@@ -21,7 +20,6 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Hobbies />
         <Stack />
         <Projects />
         <div className="relative z-0">

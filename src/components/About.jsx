@@ -45,6 +45,7 @@ const About = () => {
     >
       <div className="mb-10 mr-3">
         <motion.h2
+          ref={ref}
           variants={fadeTransition("", "", 0.2, 1.2)}
           className="text-white xl:text-7xl sm:text-5xl text-4xl font-bold md:mt-10"
           animate={inView ? "show" : "hidden"}
@@ -55,7 +56,7 @@ const About = () => {
         <motion.p
           ref={ref}
           variants={fadeTransition("", "", 0.2, 1.2)}
-          className="text-secondary mt-2 xl:text-[18px] text-base sm:text-sm md:mt-10 font-semibold max-w-3xl"
+          className="text-secondary mt-2 xl:text-[18px] text-sm  md:mt-10 font-semibold max-w-3xl"
           animate={inView ? "show" : "hidden"}
           exit="exit"
         >

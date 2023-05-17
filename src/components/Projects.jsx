@@ -28,11 +28,11 @@ const ProjectCard = ({
       initial="hidden"
       animate={inView ? "show" : "hidden"}
       exit="exit"
-      className="mx-auto "
+      className="mx-auto overflow-hidden"
     >
       <Tilt
         options={{ max: 35, scale: 1, speed: 400 }}
-        className=" bg-cover p-4 rounded-2xl sm:w-[360px] w-full  "
+        className=" bg-cover p-4 rounded-2xl sm:w-[340px] w-full  "
       >
         <div className="relative flex flex-col">
           <img
@@ -48,7 +48,7 @@ const ProjectCard = ({
           </div>
           <div className="flex  flex-col mt-4">
             <h3 className="text-white text-2xl sm:xl">{name}</h3>
-            <p className="text-secondary text-xl sm:text-[14px]">
+            <p className="text-secondary text-sm sm:text-[14px]">
               {description}
             </p>
             <p></p>
@@ -84,11 +84,12 @@ function Projects() {
 
   return (
     <section
-      className={`flex  overflow-hidden ${
+      className={`flex  overflow-x-hidden ${
         isBelowSmallScreens ? "flex-col" : "flex-col"
-      } mx-auto max-w-7xl items-center justify-between px-6 mt-20`}
+      } mx-auto max-w-7xl  justify-between px-6 mt-20`}
     >
       <motion.div
+        className="mt-10"
         ref={ref}
         variants={fadeTransition("down", "", 0.3, 0.8)}
         initial="hidden"
@@ -101,10 +102,6 @@ function Projects() {
           The projects below highlight my expertise and knowledge via practical
           illustrations of my contributions. <br />
           Accompanied by links to code repositories and live demonstrations.
-          <br />
-          These examples showcase my capabilities in tackling intricate
-          challenges, employing various technologies, and efficiently managing
-          projects.
         </p>
       </motion.div>
       <div className="flex flex-wrap mt-10 gap-5">

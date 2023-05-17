@@ -4,6 +4,22 @@
   font-family: "Roslindale";
   src: url("../fonts/Roslindale.woff");
 }
+@font-face {
+  font-family: 'Ampersand-bold';
+  src: url('https://uploads-ssl.webflow.com/5e1e29388e0a4f467dbe0cf1/60048bb298c87b21b884d03f_Ampersand-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Maven+Pro&family=Thasadith&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -49,3 +65,5 @@
     rgba(6, 6, 6, 1) 100%
   );
 }
+
+

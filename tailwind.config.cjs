@@ -6,10 +6,11 @@ module.exports = {
     extend: {
       fontFamily: {
         Roslindale: ["Roslindale", "sans-serif"],
+        AmbersandBold: ["Ambersand-bold"],
       },
       colors: {
         primary: "#140074",
-        secondary: "#868298",
+        secondary: "#B7B5B5",
         tertiary: "#2F2B4B",
         "black-100": "#100d25",
         cover: "rgba(9, 9, 9, 0.67)",

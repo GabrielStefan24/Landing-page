@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       <HeroModelCanvas />
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center xxs:relative">
+      <div className="absolute xs:bottom-10 bottom-40 w-full flex justify-center items-center xxs:relative">
         <a href="#about">
           <motion.div
             initial="hidden"

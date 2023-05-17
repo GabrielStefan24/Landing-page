@@ -18,8 +18,7 @@ function Navbar() {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="Logo" className="w-14 h-14 object-contain" />
-          <p className="text-white text-2xl cursor-pointer font-bold font-Roslindale">
+          <p className="text-white text-2xl cursor-pointer font-bold ">
             GabrielDevs
           </p>
         </Link>
