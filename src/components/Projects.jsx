@@ -100,7 +100,7 @@ function Projects() {
 
   return (
     <section
-      className={`flex  overflow-x-hidden  ${
+      className={`flex  overflow-x-hidden md:mt-40  ${
         isBelowSmallScreens ? "flex-col" : "flex-col"
       } mx-auto max-w-7xl  justify-between px-6 mt-20`}
     >
